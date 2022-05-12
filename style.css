@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Space+Grotesk:wght@300;400&family=Space+Mono&display=swap');
+
+* {
+    font-family: 'Poppins', 'Space Grotesk';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    height: 150vh;
+    margin-left: 21rem;
+    background-color: cadetblue;
+}
+
+.formulario-cadastro img {
+    width: 600px;
+    height: 500px;
+    position: relative;
+    right: 2em;
+}
+
+.imagem-principal {
+    position: absolute;
+    left: 4em;
+    top: 6em;
+}
+
+.titulo-formulario {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+    left: 5em;
+}
+
+.titulo-formulario h1 {
+    font-size: 32px;
+    color: white;
+}
+
+.titulo-formulario p {
+    font-family: 'Space Grotes';
+    font-size: 18px;
+}
+
+.input-bloco-1 {
+    width: 440px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    position: relative;
+    left: 6rem;
+}
+
+.input-bloco-1 input {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+#input {
+    width: 150px;
+    height: 25px;
+}
+
+.bloco-1-habilidades {
+    margin-left: 5.6rem;
+}
+
+.input-bloco-2 {
+    width: 440px;
+    position: relative;
+    left: 6rem;
+}
+
+.input-bloco-2 h4 {
+    margin-top: 20px;
+}
+
+.input-bloco-2 input {
+    margin-top: 12px;
+}
+
+.botao button {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+}
